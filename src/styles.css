@@ -100,9 +100,9 @@ html {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 .grid-item {
