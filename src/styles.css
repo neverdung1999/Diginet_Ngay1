@@ -48,7 +48,7 @@ html {
   font-style: italic;
   font-weight: 100;
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 3px;
 }
 
 #span-price-not {
@@ -56,6 +56,18 @@ html {
   font-size: 10px;
   color: #83838388;
   font-style: italic;
+}
+
+#icon-star{
+  font-size: 17px;
+  color: rgb(255, 217, 0);
+  margin-right: 2px;
+}
+
+#icon-star-none{
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  margin-right: 10px;
 }
 
 #p-price-from {
