@@ -1,5 +1,4 @@
 import React from "react";
-import Content from "./components/content";
 import Category from "./components/category";
 
 function App(props) {

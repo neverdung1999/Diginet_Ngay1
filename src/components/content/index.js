@@ -7,22 +7,27 @@ export default function index(props) {
 
   const showRate = (value) => {
     let result = [];
-    if (value == 0) {
-      result = <span id="span-price-not">Not enough reviews yet</span>;
-    } else {
-      for (let i = 0; i < value; i++) {
-        result.push(<i className="fas fa-star" id="icon-star"></i>);
-      }
-      for (let j = 0; j < 5 - value; j++) {
-        result.push(<i className="fas fa-star" id="icon-star-none"></i>);
+    if (value) {
+      if (value == 0) {
+        result = <span id="span-price-not">Not enough reviews yet</span>;
+      } else {
+        for (let i = 0; i < value; i++) {
+          result.push(<i className="fas fa-star" id="icon-star"></i>);
+        }
+        for (let j = 0; j < 5 - value; j++) {
+          result.push(<i className="fas fa-star" id="icon-star-none"></i>);
+        }
       }
     }
     return result;
   };
 
   const showPrice = (priceNum, priceUnit, discountProduct) => {
+    // console.log("priceNum: ", priceNum);
+    // console.log(discountProduct);
+    // console.log(priceUnit);
     let sum = 0;
-    if (discountProduct > 0) {
+    if (discountProduct !== 0 && discountProduct > 0) {
       if (priceUnit === "JPY") {
         sum = priceNum * 206 * (1 - discountProduct / 100);
       }
@@ -37,7 +42,7 @@ export default function index(props) {
         sum = priceNum * 206;
       }
       if (priceUnit === "EUR") {
-        sum = priceNum * 27.6;
+        sum = priceNum * 27600;
       }
       if (priceUnit === "GBP") {
         sum = priceNum * 32000;
