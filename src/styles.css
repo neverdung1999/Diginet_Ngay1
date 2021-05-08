@@ -9,14 +9,20 @@ html {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  min-width: 480px;
 }
 
 #img-content {
+  cursor: pointer;
   width: 100%;
   height: 40%;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+#img-content::hover {
+  background-color: red;
 }
 
 #h3-title {
@@ -58,13 +64,13 @@ html {
   font-style: italic;
 }
 
-#icon-star{
+#icon-star {
   font-size: 17px;
   color: rgb(255, 217, 0);
   margin-right: 2px;
 }
 
-#icon-star-none{
+#icon-star-none {
   font-size: 17px;
   color: rgb(104, 104, 104);
   margin-right: 10px;
@@ -93,8 +99,8 @@ html {
   margin-right: 10px;
 }
 
-.container {
-  width: 1140px;
+.container__content {
+  width: 80%;
   height: 100%;
   margin: 0px auto;
 }
@@ -103,6 +109,8 @@ html {
   display: flex;
   padding: 10px;
   flex-wrap: wrap;
+  width: 100%;
+  margin: 50px auto;
 }
 
 .grid-item {
@@ -110,7 +118,7 @@ html {
   margin-top: 100px;
   justify-content: center;
   height: 520px;
-  width: 350px;
+  width: 353px;
   border: 1px solid #a0a0a0;
   border-radius: 15px;
   margin: 10px;
@@ -121,6 +129,11 @@ html {
   position: absolute;
   right: -10px;
   top: 20px;
+}
+
+.diplay-row:hover,
+.diplay-row:active {
+  /* display: none; */
 }
 
 .course-row-left {
@@ -161,10 +174,9 @@ html {
   max-height: 95px;
   padding: 2px 12px;
   overflow: hidden;
-  top: 10px;
+  top: 15px;
   word-break: break-all;
 }
-
 
 .price {
   position: relative;

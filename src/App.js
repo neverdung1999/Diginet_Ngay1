@@ -1,5 +1,6 @@
 import React from "react";
 import Category from "./components/category";
+import "./query.css";
 
 function App(props) {
   const data = [

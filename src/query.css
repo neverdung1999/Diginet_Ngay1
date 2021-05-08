@@ -1,0 +1,286 @@
+@media only screen and (max-width: 1800px) {
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 30%;
+    height: 470px;
+  }
+  .category {
+    height: 17%;
+  }
+  #h3-title {
+    font-size: 18px;
+  }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 1360px) {
+  p {
+    font-size: 13px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 30%;
+    height: 450px;
+  }
+  #span-category {
+    font-size: 14px;
+  }
+  #span-bottom {
+    font-size: 14px;
+  }
+  #p-price {
+    font-size: 23px;
+  }
+  #h3-title {
+    font-size: 17px;
+  }
+  #span-title {
+    font-size: 13px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 30%;
+    height: 450px;
+  }
+  #span-category {
+    font-size: 12px;
+  }
+  #span-bottom {
+    font-size: 12px;
+  }
+  #p-price {
+    font-size: 22px;
+  }
+  #h3-title {
+    font-size: 18px;
+  }
+  #span-title {
+    font-size: 14px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 40%;
+    height: 430px;
+  }
+  #span-category {
+    font-size: 15px;
+  }
+  #span-bottom {
+    font-size: 14px;
+  }
+  #p-price {
+    font-size: 22px;
+  }
+  #h3-title {
+    font-size: 20px;
+  }
+  #span-title {
+    font-size: 13px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 41%;
+    height: 400px;
+  }
+  #span-category {
+    font-size: 12px;
+  }
+  #span-bottom {
+    font-size: 12px;
+  }
+  #p-price {
+    font-size: 22px;
+  }
+  #h3-title {
+    font-size: 18px;
+  }
+  #span-title {
+    font-size: 13px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 55%;
+    height: 400px;
+  }
+  #span-category {
+    font-size: 15px;
+  }
+  #span-bottom {
+    font-size: 15px;
+  }
+  #p-price {
+    font-size: 22px;
+  }
+  #h3-title {
+    font-size: 19px;
+  }
+  #span-title {
+    font-size: 15px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 60%;
+    height: 420px;
+  }
+  #span-category {
+    font-size: 13px;
+  }
+  #span-bottom {
+    font-size: 13px;
+  }
+  #p-price {
+    font-size: 20px;
+  }
+  #h3-title {
+    font-size: 19px;
+  }
+  #span-title {
+    font-size: 15px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 10px;
+  }
+  html {
+    font-size: 15px;
+  }
+  .container__content {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-item {
+    width: 70%;
+    height: 420px;
+  }
+  #span-category {
+    font-size: 13px;
+  }
+  #span-bottom {
+    font-size: 11px;
+  }
+  #p-price {
+    font-size: 20px;
+  }
+  #h3-title {
+    font-size: 19px;
+  }
+  #span-title {
+    font-size: 15px;
+  }
+  #span-price {
+    font-size: 14px;
+  }
+}
